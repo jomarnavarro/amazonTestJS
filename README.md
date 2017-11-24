@@ -7,20 +7,28 @@ The following simple project implements a few simple example browser tests using
 In order to run this project, one must comply with the following prerequisites:
 
  * Install [npm](https://www.npmjs.com/get-npm)
- * Get the folling packages:
+ * Get the following packages:
    - Selenium WebDriver
-   ```npm install selenium-webdriver```
+   ```
+   npm install selenium-webdriver
+   ```
    - Mocha
-   ```npm install mocha -g```
+   ```
+   npm install mocha -g
+   ```
    - Selenium Page Object
-   ```npm install selenium-pageobject```
+   ```
+   npm install selenium-pageobject
+   ```
 
 ## Running the files
 
 Simple navigate to the root folder, and run the following commands:
 
 * For firstSelenium.js
-```node firstSelenium.js```
+```
+node firstSelenium.js
+```
 * For test_chaining.js
 ```
 mv test_chaining.js test.js
